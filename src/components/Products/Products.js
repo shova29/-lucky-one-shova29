@@ -3,7 +3,7 @@ import "./Products.css";
 import { MdAddShoppingCart } from "react-icons/md";
 
 const Products = (props) => {
-  const { product } = props;
+  const { product, handleAddToCart } = props;
   const { name, price, img } = product;
   return (
     <div className="product">
@@ -12,7 +12,12 @@ const Products = (props) => {
         <p className="product-name">{name}</p>
         <p>Price: ${price}</p>
       </div>
-      <button className="button-cart">
+      <button
+        onClick={() => {
+          handleAddToCart(product);
+        }}
+        className="button-cart"
+      >
         <p className="button-text">ADD TO CART</p>
         <MdAddShoppingCart className="icon" />
       </button>
