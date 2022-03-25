@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "name": "Greta Fuller",
+    "img": "https://img.freepik.com/free-vector/realistic-pair-golden-wedding-rings_52683-13736.jpg?t=st=1648224260~exp=1648224860~hmac=68c9123b8fcb5340628fd57c9ddf2821b0ce9f1f91600e94a9f9bb9b6de516b6&w=740",
+    "price": "540"
+  },
+  {
+    "id": 2,
+    "name": "Stuart Oneil",
+    "img": "https://img.freepik.com/free-photo/close-up-luxurious-ring_1203-1535.jpg?size=338&ext=jpg&ga=GA1.1.1043915503.1642185565",
+    "price": "900"
+  },
+  {
+    "id": 3,
+    "name": "Reva Hill",
+    "img": "https://img.freepik.com/free-photo/concept-wedding-accessories-with-wedding-ring-close-up_185193-69929.jpg?size=626&ext=jpg&ga=GA1.2.1043915503.1642185565",
+    "price": "900"
+  },
+  {
+    "id": 4,
+    "name": "Stacy Medina",
+    "img": "https://img.freepik.com/free-photo/classy-silver-wedding-rings-made-white-gold-lie-crystal-bracelet_8353-8668.jpg?size=626&ext=jpg&ga=GA1.2.1043915503.1642185565",
+    "price": "1000"
+  },
+  {
+    "id": 5,
+    "name": "Suarez Branch",
+    "img": "https://img.freepik.com/free-photo/model-shows-earrings-ring-with-beautiful-blue-precious-stones_8353-5043.jpg?size=338&ext=jpg&ga=GA1.2.1043915503.1642185565",
+    "price": "1720"
+  },
+  {
+    "id": 6,
+    "name": "Benelli M1014",
+    "img": "https://img.freepik.com/free-photo/concept-wedding-accessories-with-wedding-ring-close-up_185193-71418.jpg?size=626&ext=jpg&ga=GA1.2.1043915503.1642185565",
+    "price": "1900"
+  },
+  {
+    "id": 7,
+    "name": "Ruth Sanford",
+    "img": "https://img.freepik.com/free-photo/pretty-model-demonstrating-expensive-jewelry_7502-7048.jpg?size=626&ext=jpg&ga=GA1.2.1043915503.1642185565",
+    "price": "5430"
+  },
+  {
+    "id": 8,
+    "name": "Ruth Sanford",
+    "img": "https://img.freepik.com/free-photo/gorgeous-wedding-rings-sparklie-acorn_8353-704.jpg?size=626&ext=jpg&ga=GA1.2.1043915503.1642185565",
+    "price": "570"
+  },
+
+  {
+    "id": 9,
+    "name": "Ruth Sanford",
+    "img": "https://img.freepik.com/free-photo/beautiful-woman-vintage-image_144627-24213.jpg?size=626&ext=jpg&ga=GA1.2.1043915503.1642185565",
+    "price": "970"
+  },
+  {
+    "id": 10,
+    "name": "Ruth Sanford",
+    "img": "https://img.freepik.com/free-photo/beautiful-woman-vintage-image_144627-24213.jpg?size=626&ext=jpg&ga=GA1.2.1043915503.1642185565",
+    "price": "800"
+  },
+  {
+    "id": 11,
+    "name": "Ruth Sanford",
+    "img": "https://img.freepik.com/free-photo/beautiful-woman-vintage-image_144627-24213.jpg?size=626&ext=jpg&ga=GA1.2.1043915503.1642185565",
+    "price": "750"
+  },
+  {
+    "id": 12,
+    "name": "Ruth Sanford",
+    "img": "https://img.freepik.com/free-photo/beautiful-woman-vintage-image_144627-24213.jpg?size=626&ext=jpg&ga=GA1.2.1043915503.1642185565",
+    "price": "880"
+  }
+]
