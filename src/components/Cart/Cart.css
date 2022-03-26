@@ -42,3 +42,10 @@
   background-color: purple;
   color: #fff;
 }
+
+@media screen and (max-width: 1400px) {
+  .randomly-choosen-btn {
+    position: absolute;
+    bottom: 70px;
+  }
+}
