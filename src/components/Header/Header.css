@@ -1,0 +1,32 @@
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.header {
+  height: 80px;
+  background-color: rgba(128, 128, 128, 0.651);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.logo-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 36px;
+}
+
+.header a:hover {
+  color: purple;
+  font-weight: 600;
+}
