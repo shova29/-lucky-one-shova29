@@ -30,7 +30,7 @@
 }
 .randomly-choosen-btn {
   position: absolute;
-  bottom: 60px;
+  bottom: 40px;
 }
 
 .choose-again-btn {
@@ -46,6 +46,6 @@
 @media screen and (max-width: 1400px) {
   .randomly-choosen-btn {
     position: absolute;
-    bottom: 70px;
+    bottom: 50px;
   }
 }

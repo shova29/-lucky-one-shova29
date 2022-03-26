@@ -4,24 +4,22 @@ import "./Cart.css";
 import { AiOutlineDelete } from "react-icons/ai";
 
 const Cart = ({ cart }) => {
-  const [cartItems, setCartItems] = useState(cart);
+  const [cartItems, setCartItems] = useState([]);
 
   const randomChoosenProduct = () => {
     let randomNumber = Math.floor(Math.random() * cart.length);
     if (cart.length === 0) {
       setCartItems("No items in cart");
     } else {
+      const newCart = [...cart];
+      setCartItems(newCart);
+      console.log(cartItems);
       setCartItems(cart[randomNumber].name);
     }
   };
-  const removeProduct = (id) => {
-    const newCart = cart.filter((product) => product.id !== id);
-    setCartItems(newCart);
-
-    // document.getElementById("itemPanel").innerHTML = "";
-    // console.log(id, name);
-    // setCartItems(cartItems.filter((item) => item.id !== id));
-    // setCartItems([]);
+  const removeProduct = () => {
+    document.getElementById("itemPanel").innerHTML = "";
+    setCartItems([]);
   };
 
   return (
@@ -40,14 +38,17 @@ const Cart = ({ cart }) => {
           </div>
         ))}
       </div>
+
       <div className="container ms-1 random-product">
-        <p className="fw-bold fs-5">
-          Selected Product for You: <br></br>
-          <span className="seleted-product-text fw-bold">{cartItems}</span>{" "}
+        <p className="fw-bold fs-5 mb-5">
+          Selected Product for You:
+          <span className="seleted-product-text fw-bold mb-5">
+            {cartItems}
+          </span>{" "}
         </p>
       </div>
-
-      <div>
+      <br />
+      <div className="mt-5">
         {" "}
         <Button
           onClick={() => randomChoosenProduct()}
@@ -60,7 +61,7 @@ const Cart = ({ cart }) => {
       <div>
         {" "}
         <Button
-          onClick={() => removeProduct([])}
+          onClick={() => removeProduct()}
           className="choose-again-btn fs-5 fw-bolder ms-3"
           variant="outline-secondary"
         >
